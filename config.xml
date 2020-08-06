@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 
 <!-- Configuration Start: Please customize following configuration -->
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="phonegap-web-template.pulipuli.info" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="phonegap-web-template.pulipuli.info" version="2.0.0">
     
     <name>Geometry Training</name>
     <description>克服幾何恐懼，掌握幾何</description>
-    <author email="liostephen200138@gmail.com">廖汶鋒</author>
+    <author email="travislio0417@gmail.com">廖汶鋒</author>
     <!-- Configuration End -->
   
     <!--  allows access to any external resource. -->
