@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <!-- Configuration Start: Please customize following configuration -->
@@ -10,36 +10,35 @@
         <script type="text/javascript" src="cordova.js"></script>
     </head>
     <body>
-        <div id="content">
+        <!--div id="content">
             <div class="content-container">
                 <img src="spin.svg" />
                 <div>
-                    <!-- Configuration Start: Please customize following configuration -->
+
                     <h1>恐懼消除了嗎？</h1>
                     <div class="description"><span>我不是教你幾何<br/>而是要你領悟幾何</span></div>
-                    <!-- Configuration End -->
+
                 </div>
             </div>
-        </div>
+        <!--/div-->
         <div class="footer" id="footer">
-<div class="container clearfix">
-<p>
-<span class="blog-copyright">
-    <!-- Configuration Start: Please customize following configuration -->
-    © Copyright 2020 <a href="https://man0308fong.github.io/geotraining.github.io/">Geometry Training</a>
-    <!-- Configuration End -->
-</span>
-</p>
-</div>
-</div>
+            <div class="container clearfix">
+                <p>
+                    <span class="blog-copyright">
+                        <!-- Configuration Start: Please customize following configuration -->
+                        © Copyright 2020 <a href="https://man0308fong.github.io/geotraining.github.io/">Geometry Training</a>
+                        <!-- Configuration End -->
+                    </span>
+                </p>
+            </div>
+        </div>
         <script type="text/javascript">
                 // device APIs are available
                 function onDeviceReady() {
                     if (history.length > 1) {
                         navigator.app.exitApp();
                         return;
-                    }
-                    
+                    }                    
                     //alert(navigator.network.connection.type);
                     if (navigator.network.connection.type === Connection.NONE) {
                         //location.replace("offline.html");
